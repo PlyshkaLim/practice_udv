@@ -1,0 +1,26 @@
+.textContent {
+    color: #626262;
+    max-width: 1050px;
+    margin: 43px 0 0 136px;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    align-self: flex-start;
+    align-content: flex-start;/*???*/
+    text-align: left;
+    align-items: flex-start;
+}
+
+.image {
+    margin: 50px 0 0 136px;
+
+    align-self: flex-start;
+    align-content: flex-start;
+}
+.image img {
+    height: 400px;
+    width: auto;
+}

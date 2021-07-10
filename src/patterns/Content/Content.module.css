@@ -1,0 +1,42 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.topic {
+    color: #000000;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+
+    align-self: flex-start;
+    margin: 9px 0 0 130px;
+}
+
+.navbar {
+    margin: 31px 0 0 134px;
+    display: flex;
+
+    color: #626262;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+
+
+}
+
+.textContent {
+    color: #626262;
+    max-width: 1146px;
+    margin: 43px 0 0 136px;
+
+    align-self: flex-start;
+    align-content: flex-start;/*???*/
+    text-align: left;
+}

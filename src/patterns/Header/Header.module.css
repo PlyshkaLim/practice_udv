@@ -1,0 +1,45 @@
+.header {
+    display: grid;
+    grid-template-areas: "name menu";
+    padding: 41px 130px 0 130px;
+}
+
+.name {
+    grid-area: name;
+    display: flex;
+    justify-content: start;
+}
+
+.name1 {
+    color: #000000;
+    padding: 0 26px 0 0;
+}
+
+.name2 {
+    color: #626262;
+}
+.menu {
+    grid-area: menu;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.line {
+    position: absolute;
+    width: 74px;
+    height: 0;
+    left: 134px;
+    top: 92px;
+
+    border: 1px solid #000000;
+}
+
+.item {
+    text-decoration: none;
+    margin: 0 0 0 40px;
+    color: #302E2E;
+}
+
+.activeLink {
+    color: #009A73;
+}
