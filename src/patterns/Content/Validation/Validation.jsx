@@ -91,8 +91,13 @@ const Validation = () => {
                         выбранное поле контекста.
                     </div>
                     <div className={p.entryField2}>
-                        Не выбрано
-                        <div className={p.rectangle}/>
+                        <span className={p.text}>
+                            Не выбрано
+                        </span>
+                        {/*<div className={p.rectangle}/>*/}
+                        <svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 8.05371L9.33013 0.530218L0.669873 0.530218L5 8.05371Z" fill="#4A4A4A"/>
+                        </svg>
                     </div>
                 </div>
 

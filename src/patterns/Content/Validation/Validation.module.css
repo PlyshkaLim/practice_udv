@@ -79,13 +79,21 @@
     border-radius: 4px;
 
     margin: 5px 0 0 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.entryField2 .text {
     padding: 5px 0 0 8px;
     font-size: 16px;
     color: #4A4A4A;
+    display: flex;
 }
 
-.rectangle {
-
+.entryField2 svg {
+    margin: auto 11px auto 0;
 }
 
 .entryField3 {
