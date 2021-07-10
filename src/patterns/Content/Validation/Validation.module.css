@@ -3,7 +3,6 @@
     text-align: left;
     width: 1510px;
 
-
     /*border: 1px solid black;*/
 }
 
@@ -18,11 +17,9 @@
 .info {
     display: flex;
     height: 550px;
-
     flex-direction: column;
     flex-wrap: wrap;
     /*justify-content: space-between;*/
-
     /*margin: 26px 0 0 0;*/
 
     /*border: 1px solid green;*/
@@ -31,20 +28,19 @@
 .paragraph {
     width: 700px;
     margin: 26px 0 0 0;
-    font-family: Open Sans, sans-serif;
+    /*font-family: Open Sans, sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: normal*/;
     font-size: 16px;
     line-height: 22px;
-
     color: #626262;
 
     /*border: 1px solid red;*/
 }
 
 .head {
-    font-family: Open Sans, sans-serif;
-    font-style: normal;
+    /*font-family: Open Sans, sans-serif;
+    font-style: normal;*/
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
@@ -59,17 +55,18 @@
     box-sizing: border-box;
     box-shadow: 0 0 12px rgba(0, 174, 212, 0.35);
     border-radius: 4px;
+
+    margin: 5px 0 0 0;
+    padding: 2px 0 0 8px;
+    font-size: 24px;
 }
 
 .entryFieldInfo {
-    font-family: Open Sans, sans-serif;
+    /*font-family: Open Sans, sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: normal;*/
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
-
-
     color: #00AED4;
 }
 
@@ -80,6 +77,15 @@
     border: 1px solid #ABABAB;
     box-sizing: border-box;
     border-radius: 4px;
+
+    margin: 5px 0 0 0;
+    padding: 5px 0 0 8px;
+    font-size: 16px;
+    color: #4A4A4A;
+}
+
+.rectangle {
+
 }
 
 .entryField3 {
@@ -90,4 +96,24 @@
     box-sizing: border-box;
     box-shadow: 0 0 12px rgba(231, 15, 15, 0.5);
     border-radius: 4px;
+
+    margin: 5px 0 0 0;
+    padding: 2px 0 0 8px;
+    font-size: 24px;
+}
+
+.comment {
+    /*font-style: normal;
+    font-weight: normal;*/
+    font-size: 14px;
+    line-height: 24px;
+    color: #4A4A4A;
+}
+
+.mistake {
+    /*font-style: normal;
+    font-weight: normal;*/
+    font-size: 14px;
+    line-height: 24px;
+    color: #E70F0F;
 }

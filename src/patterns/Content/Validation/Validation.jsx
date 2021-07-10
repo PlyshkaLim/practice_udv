@@ -38,8 +38,8 @@ const Validation = () => {
     return (
         <div className={p.content}>
             <div className={p.preInfo}>
-            При валидации мы используем 4 паттерна, это помогает нам показать пользователю, где он совершил ошибку, а
-            где мы предупреждем о возможности ее совершения.
+                При валидации мы используем 4 паттерна, это помогает нам показать пользователю,
+                где он совершил ошибку, а где мы предупреждем о возможности ее совершения.
             </div>
             <div className={p.info}>
                 <div className={p.paragraph}>
@@ -51,8 +51,8 @@ const Validation = () => {
                     <br/>
                     <br/>
                     <div className={p.field}>
-                        ИД <span className={p.blue}>*</span>
-                        <div className={p.entryField0}/>
+                        <span className={p.head}>ИД</span> <span className={p.blue}>*</span>
+                        <div className={p.entryField0}>|</div>
                         <div className={p.entryFieldInfo}>
                             Значение должно содержать только латинские символы и цифры
                         </div>
@@ -68,8 +68,8 @@ const Validation = () => {
                     <br/>
                     <br/>
                     <div className={p.field}>
-                        ИД *
-                        <div className={p.entryField0}/>
+                        <span className={p.head}>ИД</span> <span className={p.blue}>*</span>
+                        <div className={p.entryField0}>|</div>
                         <div className={p.entryFieldInfo}>
                             Значение должно содержать только латинские символы и цифры
                         </div>
@@ -84,11 +84,16 @@ const Validation = () => {
                     {ValidationPage[2].inf}
                     <br/>
                     <br/>
-                    Поле из источника данных *
+                    <span className={p.head}>Поле из источника данных</span> <span className={p.blue}>*</span>
                     <br/>
-                    *В списке доступны поля с типом: “Дата”. Введенное пользователем значение будет сохранено в
-                    выбранное поле контекста.
-                    <div className={p.entryField2}/>
+                    <div className={p.comment}>*В списке доступны поля с типом: “Дата”. Введенное пользователем значение
+                        будет сохранено в
+                        выбранное поле контекста.
+                    </div>
+                    <div className={p.entryField2}>
+                        Не выбрано
+                        <div className={p.rectangle}/>
+                    </div>
                 </div>
 
                 <div className={p.paragraph}>
@@ -99,9 +104,9 @@ const Validation = () => {
                     {ValidationPage[3].inf}
                     <br/>
                     <br/>
-                    Повторите пароль *
-                    <div className={p.entryField3}/>
-                    Пароли не совпадают
+                    <span className={p.head}>Повторите пароль</span> <span className={p.blue}>*</span>
+                    <div className={p.entryField3}>|</div>
+                    <div className={p.mistake}>Пароли не совпадают</div>
                 </div>
             </div>
         </div>
