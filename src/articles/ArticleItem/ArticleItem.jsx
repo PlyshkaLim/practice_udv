@@ -11,20 +11,14 @@ const ArticleItem = (props) => {
                     </div>
                 </div>
                 <div className={p.itemContent}>
-                    <div className={p.header}>
-                        {props.header}
-                    </div>
+                    <div className={p.header}>{props.header}</div>
                     <br/>
-                    <div className={p.text}>
-                        {props.text}
-                    </div>
+                    <div className={p.text}>{props.text}</div>
                     <hr/>
                     <div className={p.author}>
-                        <span className={p.writer}>Автор:</span>
-                        <br/>
-                        <span className={p.writerName}>{props.writerName}</span>
-                        <br/>
-                        <span className={p.position}>{props.position}</span>
+                        <div className={p.writer}>Автор:</div>
+                        <div className={p.writerName}>{props.writerName}</div>
+                        <div className={p.position}>{props.position}</div>
                     </div>
                     <br/>
                     <div className={p.timeToRead}>

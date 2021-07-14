@@ -57,8 +57,7 @@ const Articles = () => {
             </div>
             <div className={p.filters}>
                 <div className={p.filtersItem}>
-                   <span>
-                       <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                   <span><svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <line x1="0.7" y1="3.3" x2="25.3" y2="3.3" stroke="#4A4A4A" stroke-width="1.4"
                               stroke-linecap="round"/>
                         <line x1="0.7" y1="9.3" x2="25.3" y2="9.3" stroke="#4A4A4A" stroke-width="1.4"
@@ -68,8 +67,7 @@ const Articles = () => {
                         <circle cx="7" cy="3" r="2.5" fill="#EEF3F5" stroke="#4A4A4A"/>
                         <circle cx="21" cy="9" r="2.5" fill="#EEF3F5" stroke="#4A4A4A"/>
                         <circle cx="12" cy="15" r="2.5" fill="#EEF3F5" stroke="#4A4A4A"/>
-                    </svg>
-                    </span>
+                    </svg></span>
                     <span>Фильтрация</span>
                 </div>
                 <div className={p.filtersItem}>
@@ -89,15 +87,10 @@ const Articles = () => {
                     <svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M3 5L0.401924 0.5L5.59808 0.5L3 5Z" fill="#4A4A4A"/>
                     </svg>
-
                 </div>
             </div>
             <div className={p.content}>
                 {articleItemElements}
-                {/*<ArticleItem/>
-                <ArticleItem/>
-                <ArticleItem/>
-                <ArticleItem/>*/}
             </div>
         </div>
     )

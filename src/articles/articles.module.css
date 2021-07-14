@@ -9,9 +9,7 @@
     font-weight: 600;
     font-size: 48px;
     line-height: 65px;
-
     color: #000000;
-
     margin: 0 0 0 130px;
 }
 
@@ -33,35 +31,4 @@ svg {
     background-color: #F3F3F3;
     display: flex;
     flex-wrap: wrap;
-}
-
-.item {
-    width: 802px;/*802*/
-    height: 340px;/*338*/
-
-    border: 1px solid red;
-    border-radius: 8px;
-    margin: 0 38px 39px 0;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-}
-
-.image img {
-    height: 340px;
-    width: 406px;
-    border-radius: 8px 0 0 8px;
-}
-
-.text {
-    margin: 28px 0 0 29px;
-
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 23px;
-
-    color: #000000;
 }

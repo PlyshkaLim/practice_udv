@@ -15,7 +15,7 @@ function App() {
                 <switch>
                     <Route path='/patterns' component={Patterns}/>
                     <Route path='/articles' component={Articles}/>
-                    <Redirect from='/' to='/articles'/>{/*!!!!*/}
+                    <Redirect from='/' to='/patterns'/>
                 </switch>
             </div>
         </BrowserRouter>
