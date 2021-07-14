@@ -1,15 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
 import Patterns from "./patterns/patterns";
-import {BrowserRouter} from "react-router-dom";
+import {BrowserRouter, Redirect, Route} from "react-router-dom";
 import Header from "./patterns/Header/Header";
+import Articles from "./articles/articles";
+import React from "react";
 
 function App() {
     return (
         <BrowserRouter>
             <div className="App">
                 <Header/>
-                <Patterns/>
+                {/*<Patterns/>*/}
+                {/*<Articles/>*/}
+                <switch>
+                    <Route path='/patterns' component={Patterns}/>
+                    <Route path='/articles' component={Articles}/>
+                    <Redirect from='/' to='/articles'/>{/*!!!!*/}
+                </switch>
             </div>
         </BrowserRouter>
     );

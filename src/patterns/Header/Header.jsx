@@ -11,11 +11,11 @@ const Header = () => {
                 <div className={p.name2}>Дизайн-система</div>
             </div>
             <div className={p.menu}>
-                <NavLink to='/1' className={p.item} activeClassName={p.activeLink}>Компоненты</NavLink>
+                <NavLink to='/components' className={p.item} activeClassName={p.activeLink}>Компоненты</NavLink>
                 <NavLink to='/patterns' className={p.item} activeClassName={p.activeLink}>Паттерны</NavLink>
-                <NavLink to='/3' className={p.item} activeClassName={p.activeLink}>Принципы UX</NavLink>
-                <NavLink to='/4' className={p.item} activeClassName={p.activeLink}>Исследования</NavLink>
-                <NavLink to='/5' className={p.item} activeClassName={p.activeLink}>Статьи</NavLink>
+                <NavLink to='/principles_ux' className={p.item} activeClassName={p.activeLink}>Принципы UX</NavLink>
+                <NavLink to='/research' className={p.item} activeClassName={p.activeLink}>Исследования</NavLink>
+                <NavLink to='/articles' className={p.item} activeClassName={p.activeLink}>Статьи</NavLink>
 
                 {/*<MenuItem name='Компоненты' />*/}
                 {/*<MenuItem name='Паттерны' />*/}

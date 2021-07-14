@@ -1,0 +1,83 @@
+.content {
+    background-color: #F3F3F3;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 802px; /*802*/
+    height: 338px; /*338*/
+
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    margin: 39px 38px 0 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image img {
+    height: 340px;
+    width: 406px;
+    border-radius: 8px 0 0 8px;
+}
+
+.itemContent {
+    margin: 28px 30px 0 29px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+
+    color: #000000;
+}
+
+.header {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+
+}
+
+.text {
+    font-size: 16px;
+    line-height: 19px;
+
+    margin: 0 0 20px 0;
+}
+
+.author {
+    margin: 16px 0 0 0;
+}
+
+.writer {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.writerName {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.position {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #959595;
+}
+
+.constTimeText {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.time {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #959595;
+}

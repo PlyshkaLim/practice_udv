@@ -6,7 +6,6 @@ import {BrowserRouter, Route} from "react-router-dom";
 
 const Patterns = () => {
     return (
-
             <div className={p.patterns}>
                 <div className={p.content}>
                     <Content/>
